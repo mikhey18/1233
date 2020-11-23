@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel='stylesheet' href='/css/style.min.css' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <meta name="msapplication-TileColor" content="#004AF2">
+  <meta name="theme-color" content="#004AF2">
+
+  <title>Luviana</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="page">
+
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="header__logo" href="#" data-scroll="#intro">
+            <img src="img/logotype-white.svg" alt="Luviana">
+            <span class="header__logo-text">Luvíana</span>
+          </a>
+
+
+
+
+          <nav class="nav" id="nav">
+            <ul class="nav__list">
+              <li>
+                <a class="nav__link" href="#" data-scroll="#services">Rooms & Suites
+                  <img class="nav__link-arrow" width="15" src="img/arrow-down-sign-to-navigate.svg" alt="">
+                </a>
+                <ul>
+                  <li class="nav__link-sub"><a href="#">Block 1</a>
+                    <ul>
+                      <li><a href="#">Block 4</a>
+                        <img src="img/arrow-down-sign-to-navigate-black.svg" alt=""></li>
+                      <li><a href="#">Block 5</a></li>
+                      <li><a href="#">Block 6</a></li>
+                      <li><a href="#">Block 7</a></li>
+                      <li><a href="#">Block 8</a></li>
+                      <li><a href="#">Block 9</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Block 2</a></li>
+                  <li><a href="#">Block 3</a></li>
+                  <li><a href="#">Rooms View</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="nav__link nav__link-arrow" href="#" data-scroll="#clients">News
+                  <img class="nav__link-arrow" width="15" src="img/arrow-down-sign-to-navigate.svg" alt="">
+                </a>
+                <ul>
+                  <li><a href="#">Block 4</a></li>
+                  <li><a href="#">Block 5</a></li>
+                  <li><a href="#">Block 6</a></li>
+                  <li><a href="#">Block 7</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a class="nav__link nav__link-arrow" href="#" data-scroll="#benefits">Pages
+                  <img class="nav__link-arrow" width="15" src="img/arrow-down-sign-to-navigate.svg" alt="">
+                </a>
+                <ul>
+                  <li><a href="#">Block 4</a></li>
+                  <li><a href="#">Block 5</a></li>
+                  <li><a href="#">Block 6</a></li>
+                  <li><a href="#">Block 7</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a class="nav__link nav__link-arrow" href="#" data-scroll="#team">Blocks
+                  <img class="nav__link-arrow" width="15" src="img/arrow-down-sign-to-navigate.svg" alt="">
+                </a>
+                <ul>
+                  <li><a href="#">Block 4</a></li>
+                  <li><a href="#">Block 5</a></li>
+                  <li><a href="#">Block 6</a></li>
+                  <li><a href="#">Block 7</a></li>
+                </ul>
+              </li>
+
+              <a class="nav__link nav__link-instagram" href="#" data-scroll="#mission">
+                <img width="15" src="img/instagram.svg" alt=""></a>
+
+              <a class="nav__link nav__link-tripadvisor" href="#" data-scroll="#news">
+                <img width="15" src="img/tripadvisor.svg" alt=""></a>
+
+              <a class="nav__link nav__link-foursquare" href="#" data-modal="#becomeClientModal">
+                <img width="15" src="img/foursquare.svg" alt="">
+              </a>
+            </ul>
+          </nav>
+
+          <button class="burger" type="button" id="navToggle">
+            <span class="burger__line">1</span>
+            <span class="burger__line">2</span>
+            <span class="burger__line">3</span>
+            <span class="burger__line">4</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Intro -->
+    <div class="intro" id="intro">
+
+      <div class="intro__slider" id="introSlider">
+        <div class="slider-item">
+          <div class="intro__slider-item" style="background-image: url(img/slider/slide-1-2560x1268.jpg)">
+          </div>
+        </div>
+        <div class="slider-item">
+          <img class="intro__slider-photo" src="img/slider/slide-2-new-2560x1268.jpg" alt="">
+        </div>
+        <div class="slider-item">
+          <div class="intro__slider-item" style="background-image: url(img/slider/slide-3-2560x1268.jpg)">
+          </div>
+        </div>
+        <div class="slider-item">
+          <img class="intro__slider-photo" src="img/slider/Slide-4-2560x1268.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="intro__inner">
+
+
+
+          <div class="intro__text" data-aos="fade-left">
+            <h1 class="intro__title">
+              <span>H</span>
+              Hello.Salut.Hola
+            </h1>
+            <p>Our Hotels & Resorts remain stylish, modern, forward thinking global
+              leader of hospitality
+              and we help make traveling easier with our smart design, innovative restaurant concepts,
+              unique activities, nature and authentic hospitality.</p>
+            <button class="intro__text-btn"><a href="#">more info</a> </button>
+            <div class="intro__slider-arrows">
+              <button class="intro__slider-btn  intro__slider-btn--next" id="introSliderNext"
+                type="button">Next</button>
+              <button class="intro__slider-btn  intro__slider-btn--next" id="introSliderNext"
+                type="button">Next</button>
+              <button class="intro__slider-btn  intro__slider-btn--next" id="introSliderNext"
+                type="button">Next</button>
+              <button class="intro__slider-btn  intro__slider-btn--next" id="introSliderNext"
+                type="button">Next</button>
+            </div>
+          </div>
+
+          <!-- Preview -->
+          <div class="preview">
+            <div class="preview__inner">
+              <img class="preview__img active" src="img/slider/slide-1-2560x1268.jpg" alt="">
+              <img class="preview__img" src="img/slider/slide-2-new-2560x1268.jpg" alt="">
+              <img class="preview__img" src="img/slider/slide-3-2560x1268.jpg" alt="">
+              <img class="preview__img" src="img/slider/Slide-4-2560x1268.jpg" alt="">
+            </div>
+          </div>
+
+
+
+
+        </div><!-- /.intro__inner -->
+
+
+
+      </div><!-- /.container -->
+    </div><!-- /.intro -->
+
+    <!-- Form Search -->
+    <div class="container">
+      <form class="form-search" method="POST" action="#">
+        <div class="form-search__inner">
+
+
+          <div class="form-search__col form-search__col--in">
+            <div class="form-search__col-name">Check-in: *</div>
+            <div class="form-search__col-input"><input type='text' name='text' placeholder="Check-in Date"></div>
+          </div>
+
+
+          <div class="form-search__col form-search__col--out">
+            <div class="form-search__col-name">Check-out: *</div>
+            <div class="form-search__col-input"><input type='text' name='text' placeholder="Check-out Date"></div>
+          </div>
+
+
+          <div class="form-search__col form-search__col--adult">
+            <div class="form-search__col-name">Adults:</div>
+            <div class="form-search__col-input"> <select name="quantity" id="">
+                <option selected value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select></div>
+          </div>
+
+
+          <div class="form-search__col form-search__col--children">
+            <div class="form-search__col-name">Children:</div>
+            <div class="form-search__col-input"> <select name="quantity" id="">
+                <option selected value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select></div>
+          </div>
+          <div class="form-search__col form-search__col--search">
+            <a class="form-search__col-link" href="#">search</a>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Welcome -->
+    <section class=" section">
+      <div class="container">
+        <div class="welcome">
+          <div class="welcome__col">
+            <div class="welcome__photo">
+              <img class="welcome__photo--big" src="img/welcome-1-902x1024.jpg" alt="">
+              <img class="welcome__photo--small" src="img/welcome-2-1024x705.jpg" alt="">
+            </div>
+
+            <div class="welcome__text">
+              <div class="welcome__suptitle header__suptitle"> RAISING COMFORT TO THE HIGHEST LEVEL
+              </div>
+              <h2 class="welcome__title">Welcome to Luviana Hotel Resort</h2>
+              <p class="welcome__paragraph">The Hotel Luviana is the right choice for visitors who are
+                searching for a combination of charm and a convenient position from where to explore
+                surroundings.</p> <br>
+              <p class="welcome__paragraph">The rooms are arranged on the first, second and third
+                floors.
+                On the top floor, there is also a charming terrace or solarium available for the use
+                of
+                guests, from where you can enjoy the view.</p>
+              <button class="welcome__btn">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Amenities -->
+    <section>
+      <div class="amenities">
+        <div class="amenities__inner">
+          <div class="amenities__background">
+            <img src="img/amenities-new.jpg" alt="">
+          </div>
+          <div class="amenities__description description-block">
+            <div class="description__title">Our Amenities
+            </div>
+            <div class="description__text">The hotel is arranged on three floors without a lift. On
+              the
+              ground floor, apart from the reception, there is a comfortable lounge where you can
+              sit and
+              drink tea.
+
+            </div>
+
+            <div class="description__list">
+              <ul class="description__list--left">
+                <li class="swimming-icon"> Swimming pool</li>
+                <li class="spa-icon">Spa & massage</li>
+                <li class="surfing-icon">Surfing lessons</li>
+                <li class="diving-icon">Diving & snorkling</li>
+              </ul>
+              <ul class="description__list--right">
+                <li class="gym-icon">Gym & yoga</li>
+                <li class="boat-icon">Boat tours</li>
+                <li class="conference-icon">Conference room</li>
+                <li class="beach-icon">Private Beach</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rooms  -->
+    <section class="rooms">
+      <div class="container">
+        <div class="rooms__inner">
+          <div class="rooms__suptitle header__suptitle">RAISING COMFORT TO THE HIGHEST LEVEL
+            <h2 class="rooms__title header__title">Rooms & Suites</h2>
+          </div>
+          <div class="rooms__button">
+            <button class="rooms__btn">view all</button>
+          </div>
+        </div>
+
+
+        <div class="rooms__offers">
+          <div class="rooms__offers-col rooms__offers-col-1">
+            <img src="img/superior-double-room-992x992.jpg" alt="">
+            <div class="rooms__name"><a href="#">Superior Double Room</a></div>
+            <div class="rooms__price">$129 / per night</div>
+          </div>
+          <div class="rooms__offers-col rooms__offers-col-2">
+            <img src="img/classic-double-room-992x992.jpg" alt="">
+            <div class="rooms__name"> <a href="#">Classic Double Room</a> </div>
+            <div class="rooms__price">$159 / per night</div>
+          </div>
+          <div class="rooms__offers-col rooms__offers-col-3">
+            <img src="img/comfort-triple-room-992x992.jpg" alt="">
+            <div class="rooms__name"><a href="#">Comfort Triple Room</a> </div>
+            <div class="rooms__price">$179 / per night</div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+    <!-- Review -->
+    <section class="reviews">
+      <div class="reviews__inner">
+        <div class="reviews__background">
+          <img src="img/People-Say-.jpg" alt="">
+        </div>
+        <div class="reviews__block">
+          <div class="reviews__block-suptitle">
+            AT THE HEART OF COMMUNITIES</div>
+          <div class="reviews__block-title">People Say
+          </div>
+          <div class="reviews__block-text">
+            “We stayed here with our family and are fully satisfied with our vacation. Rooms are
+            very
+            modern,
+            have all needed amenities, the kitchen is very delicious and service is just perfect. We
+            will
+            for
+            sure come back.”</div>
+          <div class="reviews__block-author">
+            <img class="reviews__block-author-photo" src="img/kate-palmer-150x150.jpg" alt="">
+            <div class="reviews__block-author-name">KATE PALMER</div>
+            <div class="reviews__block-author-state">IDAHO</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <!-- Restaurant -->
+    <section class="restaurant">
+      <div class="container">
+        <div class="restaurant__inner">
+          <div class="restaurant__photo">
+            <img src="img/restaurant-1024x982.jpg" alt="">
+          </div>
+          <div class="restaurant__menu">
+            <h2 class="restaurant__title">Our Restaurant
+            </h2>
+            <div class="restaurant__text">The buffet breakfast is served in the lounge on the ground
+              floor
+              and also outside on our little patio.</div>
+
+
+            <ul class="restaurant__menu-nav">
+              <li class="restaurant__menu-nav__item">
+                <a href="#italian" onclick="event.preventDefault()"
+                  class="restaurant__menu-nav__item--link active">Italian
+                  Kitchen <i class="fas fa-plus"></i>
+                </a>
+                <div id="italian" class="nav__submenu">
+                  <p class="nav__submenu-description">With our Italian dishes cooked by
+                    professional
+                    chefs you will be feeling as if you are at authentic Italian restaurant.
+                    Olive
+                    oil, vines and wheat bread are the keys of Italian kitchen.</p>
+                </div>
+              </li>
+              <li class="restaurant__menu-nav__item">
+                <a href="#mexican" onclick="event.preventDefault()"
+                  class="restaurant__menu-nav__item--link active">Mexican
+                  Kitchen <i class="fas fa-plus"></i>
+                </a>
+                <div id="mexican" class="nav__submenu">
+                  <p class="nav__submenu-description">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Adipisci dignissimos nisi, debitis reprehenderit
+                    voluptatem
+                    culpa perspiciatis accusamus optio incidunt! Facilis magni molestias
+                    explicabo
+                    odit voluptates, dolorum vitae ex hic repudiandae?</p>
+                </div>
+              </li>
+              <li class="restaurant__menu-nav__item">
+                <a href="#japanise" onclick="event.preventDefault()"
+                  class="restaurant__menu-nav__item--link active">Japanise
+                  Kitchen <i class="fas fa-plus"></i>
+                </a>
+                <div id="japanise" class="nav__submenu">
+                  <p class="nav__submenu-description">Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Deleniti dolor, quasi consequatur fugiat quis quaerat
+                    non
+                    aliquam nam sint beatae voluptatibus quos commodi itaque? Mollitia nisi
+                    reiciendis repellendus quisquam consequatur!</p>
+                </div>
+              </li>
+              <li class="restaurant__menu-nav__item">
+                <a href="#indian" onclick="event.preventDefault()"
+                  class="restaurant__menu-nav__item--link active">Indian Kitchen
+                  <i class="fas fa-plus"></i>
+                </a>
+                <div id="indian" class="nav__submenu">
+                  <p class="nav__submenu-description">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Quidem voluptatum soluta reiciendis natus dolor
+                    officiis ad,
+                    dolore sequi. Sapiente repellendus voluptatibus velit cumque cum
+                    obcaecati
+                    dolorem ipsum possimus, voluptatem officiis?</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="photo-gallery">
+      <div class="container">
+        <div class="photo-gallery__inner">
+          <div class="photo-gallery__suptitle header__suptitle">
+            WELCOME TO OUR PHOTO GALLERY
+            <h2 class="photo-gallery__title header__title">Photo Gallery of Our Hotel</h2>
+          </div>
+          <div class="photo-gallery__button">
+            <button class="photo-gallery__btn">View Gallery</button>
+          </div>
+        </div>
+        <div class="photo-gallery__block">
+
+          <div class="photo-gallery__block-item"><img src="img/welcome-1-1-1024x1024.jpg" alt=""></div>
+          <div class="photo-gallery__block-item"><img src="img/welcome-2-1-1024x1024.jpg" alt=""></div>
+          <div class="photo-gallery__block-item"><img src="img/single-room-2-1024x683.jpg" alt=""></div>
+          <div class="photo-gallery__block-item"><img src="img/gallery-2-1024x1005.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <div class="map" id="map"></div>
+
+    <!-- Site info -->
+    <div class="site-info">
+      <!-- <div class="container"> -->
+      <div class="site-info__col">
+        <div class="site-info__col-payment">
+          <div class="col-payment-logo">
+            <img class="site-info__logo" width="80" src="img/logotype.svg" alt="">
+            <div class="site-info__logo-name">
+              <p class="logo-name__luxury">luxury</p>
+              <p class="logo-name__hotels">hotels</p>
+              <p class="logo-name__network">network</p>
+            </div>
+          </div>
+          <div class="site-info__col-payment-about">
+            <p>All hotels and vacation rental properties listed on this website are
+              independently owned
+              and operated.</p>
+            <p>Accepted payment methods</p>
+          </div>
+          <img src="img/payments.png" alt="">
+        </div>
+        <div class="site-info__col-customers">
+          <div class="col-customers__title">For Customers</div>
+          <ul class="col-customers__list">
+            <li><a class="col-customers__link" href="#">About Luviana</a> </li>
+            <li><a class="col-customers__link" href="#">Customer Care/Help</a> </li>
+            <li><a class="col-customers__link" href="#">Corporate Accounts</a> </li>
+            <li><a class="col-customers__link" href="#">Financial Information</a> </li>
+            <li><a class="col-customers__link" href="#">Terms & Conditions</a> </li>
+
+          </ul>
+        </div>
+        <div class="site-info__col-news">
+          <div class="col-news__title">Recent News</div>
+          <ul class="col-news__list">
+            <li><a class="col-news__link" href="#">Our Secret Island
+                Boat Tour Is Just for You</a></li>
+            <li><a class="col-news__link" href="#"> Chill and Escape in Our Natural Shelters</a>
+            </li>
+            <li><a class="col-news__link" href="#"> September in Luviana Hotel</a></li>
+            <li><a class="col-news__link" href="#"> Live Music Concerts at Luviana</a></li>
+          </ul>
+        </div>
+        <div class="site-info__col-contact">
+          <div class="col-contact__title">Contact Us</div>
+          <address class="address">3015 Grand Ave, Coconut Grove,
+            Merrick Way, FL 12345</address>
+          <div class="col-contact-mail"><a href="mailto:hello@luviana.com">hello@luviana.com</a>
+          </div>
+          <div class="col-contact-tel"><a href="tel:+19544566789">1.954.456.6789</a></div>
+          <div class="col-contact-fax"><a href="tel:+19544566788">1.954.456.6788</a></div>
+          <div class="col-contact-24"><a href="#">24/7 Customer Service</a></div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </div>
+
+
+    <footer class="footer">
+      <div class="footer__col">
+        <div class="footer__col--left">Luvíana © 2020 All Rights Reserved</div>
+        <div class="footer__col--right">About / Terms & Conditions</div>
+      </div>
+    </footer>
+
+
+    <!-- Javascript -->
+    <script src="https://kit.fontawesome.com/28f15fc9c5.js" crossorigin="anonymous"></script>
+
+    <script>
+      function initMap() {
+        const uluru = {
+          lat: 35.3407182,
+          lng: 25.1385841
+        };
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 14,
+          center: uluru,
+        });
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAVqlLYVrSoVCCGxFu3TBSa_V4TxjZnSE&callback=initMap">
+    </script>
+
+
+
+
+</body>
+
+</html>
